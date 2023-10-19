@@ -1,0 +1,84 @@
+baseurl      = "/"
+title        = "Никита Федосов"
+languageCode = "ru-ru"
+theme        = "hello-friend-ng"
+
+paginate     = 10
+defaultContentLanguage = 'ru'
+
+# Theme for code blocks
+PygmentsCodeFences = true
+PygmentsStyle      = "monokai"
+
+[author]
+  name = "Никита Федосов"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "TeamLead | QAA Engineer"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "Nikita Fedosov personal page"
+  keywords = "homepage"
+  images = [""]
+  # backgroundImage = ""
+
+  [params.footer]
+    trademark = 2023
+    rss       = false
+    copyright = false
+    author    = false
+
+    topText = []
+    bottomText = [
+      "Powered by <a href=\"http://gohugo.io\">Hugo</a>"
+    ]
+
+  [params.portrait]
+    path     = "/images/fedosov_foto.jpg"
+    alt      = ""
+    maxWidth = "35%"
+
+  [params.logo]
+      logoMark           = ">"
+      logoText           = "fedosov.net"
+      logoHomeLink       = "/"
+      logoCursorDisabled = true
+
+
+[[params.social]]
+  name = "github"
+  url  = "https://github.com/starod00m/"
+
+[[params.social]]
+  name = "telegram"
+  url  = "https://t.me/starod00m"
+
+[[params.social]]
+  name = "email"
+  url  = "mailto:nikita@fedosov.net"
+
+# [taxonomies]
+#     category = "blog"
+#     tag      = "tags"
+#     series   = "series"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "Обо мне"
+    url        = "about/"
