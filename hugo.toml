@@ -38,7 +38,7 @@ PygmentsStyle      = "monokai"
   # backgroundImage = ""
 
   [params.footer]
-    trademark = 2024
+    trademark = 2025
     rss       = false
     copyright = false
     author    = false
